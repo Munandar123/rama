@@ -1,0 +1,66 @@
+/* Mengatur gambar latar belakang */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('kharis2808.jpeg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Menambahkan efek latar belakang semi-transparan pada form */
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparansi latar form */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+
+/* Gaya untuk judul halaman */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tampilan input text dan password */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Mengatur tampilan tombol login */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efek hover pada tombol login */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Mengatur tampilan pesan kesalahan */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
